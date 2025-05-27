@@ -10,3 +10,6 @@ Feature: axe-core results for any page
       | route          |
       | /          |
       | /about          |
+      | /features          |
+      | /pricing          |
+      | /contact          |
