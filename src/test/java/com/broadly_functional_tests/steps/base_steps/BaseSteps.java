@@ -99,9 +99,9 @@ public class BaseSteps {
         axeResults = axeBuilder.analyze(driver);
     }
 
+    // results will be available in target/extent-report/axe-core-accessibility-report.html
     @Then("there should be no violations")
     public void thereShouldBeNoViolations() {
-        // extentTest.info("Checking accessibility violations count");
         boolean noViolations = axeResults.violationFree();
 
         try {
